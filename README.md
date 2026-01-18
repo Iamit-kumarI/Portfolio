@@ -28,4 +28,4 @@ Email: amitkumaramitkumar15351@gmail.com
 LinkedIn: https://www.linkedin.com/in/amitk300/
 
 👤 Author
-Amit Kumar 
+Amit
