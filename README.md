@@ -1,4 +1,4 @@
-🌐 Amit Kumar – Developer Portfolio //yet in development phase
+🌐 Amit Kumar – Developer Portfolio
 
 🧩 How It’s Built
 React → Spring Boot → MongoDB
@@ -24,6 +24,7 @@ Design locked. Implementation in progress.
 
 ☎️ Contact me
 Email: amitkumaramitkumar15351@gmail.com
+
 LinkedIn: https://www.linkedin.com/in/amitk300/
 
 👤 Author
