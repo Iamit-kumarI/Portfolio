@@ -1,52 +1,30 @@
-🚀 Developer Portfolio
+🌐 Amit Kumar – Developer Portfolio //yet in development phase
 
-A modern, backend-driven portfolio built using React, Spring Boot, and MongoDB, designed to showcase skills, projects, and real coding activity.
+🧩 How It’s Built
+React → Spring Boot → MongoDB
 
-🏗️ Architecture
-React (Frontend)
-   ↓ REST APIs
-Spring Boot (Backend)
-   ↓
-MongoDB (Database)
+React for a smooth, modern UI
+Spring Boot for APIs, security, and logic
+MongoDB to store stats, projects, and messages
 
+✨ What You’ll See
+👋 Intro – who I am & what I do
+📊 Achievements – coding stats + graphs + streaks + activity heatmap
 
-Frontend: Displays UI, charts, and heatmaps
+🛠️ Skills – technologies I work with
 
-Backend: Handles APIs, data processing, and security
+🚀 Projects – things I’ve built & learned from
 
-Database: Stores coding stats, projects, and messages
-
-🌐 Portfolio Sections
-
-Navbar – Smooth navigation
-
-Intro – Profile and short bio
-
-Achievements – Coding stats from LeetCode, CodeChef, AtCoder
-
-Graphs (activity, streaks)
-
-Heatmap (daily consistency)
-
-Skills – Tech stack overview
-
-Projects – Selected work with details
-
-Contact – Form to reach out
-
-🛠️ Tech Stack
-
-React
-
-Spring Boot
-
-MongoDB
-
-Spring Security
-
-Swagger (API docs)
+📩 Contact – reach out directly
 
 🚧 Status
 
-In progress 🚀
-Design finalized, implementation ongoing.
+Actively building 🚀
+Design locked. Implementation in progress.
+
+☎️ Contact me
+Email: amitkumaramitkumar15351@gmail.com
+LinkedIn: https://www.linkedin.com/in/amitk300/
+
+👤 Author
+Amit Kumar 
