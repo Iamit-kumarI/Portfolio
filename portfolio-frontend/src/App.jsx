@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import NavBar from './components/navBar/nav'
-import Intro from './components/intro/intro'
+import Greeting from './components/intro/greeting'
 
 function App() {
   return (
     <>
       <NavBar/>
-      <Intro/>
+      <Greeting/>
     </>
   )
 }
