@@ -14,7 +14,13 @@ export default function Greeting() {
 
       init(typingRef.current, {
         showCursor: true,
-        strings: ["Amit Kumar", ".../amitK300", ".../aAmit", ".../AmitP9t"],
+        strings: [
+          "Amit Kumar",
+          ".../amitK300",
+          ".../aAmit",
+          ".../AmitP9t",
+          "Iamit kumarI"
+        ],
         typeSpeed: 100,
         backSpeed: 60,
         backDelay: 1200,
