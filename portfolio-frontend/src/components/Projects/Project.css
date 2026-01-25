@@ -1,0 +1,106 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+/* Images */
+.portfolioImg {
+  width: 17rem;
+  height: 15rem;
+  border-radius: 20%;
+  object-fit: cover;
+}
+
+/* Links inside project cards */
+.project-links {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.code {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.code:hover {
+  color: #0056b3;
+}
+
+/* Project card styling */
+.projectCard {
+  padding: 1.2rem;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+/* Hover effect */
+.projectCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* Project title and tooltip */
+.firstName {
+  font-size: larger;
+  margin: 0.5rem 0;
+  font-weight: 700;
+  position: relative;
+  cursor: pointer;
+}
+
+.firstName::after {
+  content: attr(data-tooltip); /* use data-tooltip if you want dynamic tooltip */
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #e5dddd;
+  color: #5d5959;
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.6s ease, transform 0.3s ease;
+  z-index: 10;
+}
+
+.firstName::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent transparent #877f7f transparent;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 10;
+}
+
+.firstName:hover::after,
+.firstName:hover::before {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-12px);
+}
+
+/* MOBILE VIEW */
+@media (max-width: 700px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+}
