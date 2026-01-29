@@ -66,3 +66,13 @@
 a:hover{
   color: blue;
 }
+.lc-title a {
+  text-decoration: none;      
+  color: inherit;             
+}
+
+.lc-title a:hover {
+  text-decoration: none;  
+  font-size: 33px;
+  color: blue;
+}

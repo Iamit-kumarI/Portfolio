@@ -1,0 +1,9 @@
+.hc-title a {
+  text-decoration: none;      
+  color: inherit;             
+}
+
+.hc-title a:hover {
+  font-size: 33px;
+  color: blue;
+}
