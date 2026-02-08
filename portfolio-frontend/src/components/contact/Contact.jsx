@@ -17,7 +17,7 @@ function Contact() {
       [e.target.name]: e.target.value,
     });
   };
-
+// k
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);

@@ -25,14 +25,14 @@ function Project() {
     {
       title: "Project 2",
       img: ai,
-      links: [{ text: "source code", url: "#" }],
+      links: [{ text: "Visit 👆🏼", url: "https://hrmslite-frontend.web.app/" }],
       tooltip: "This project is in development phase...",
     },
     {
-      title: "Project 3",
+      title: "HRMS",
       img: soci,
-      links: [{ text: "source code", url: "#" }],
-      tooltip: "This project is in planning phase...",
+      links: [{ text: "Visit 🔗", url: "https://hrmslite-frontend.web.app/" }],
+      tooltip: "Human Resourse Management System...",
     },
   ];
 
